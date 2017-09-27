@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">서시</string>
+    <string name="action_settings">설정</string>
+    <string name="action_sort">정렬</string>
+    <string name="hint">도서 제목</string>
+    <string name="title_activity_splash">Splash</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="loan_available">대출가능</string>
+    <string name="loan_ing">대출중</string>
+    <string name="loan_unavailable">대출불가</string>
+</resources>

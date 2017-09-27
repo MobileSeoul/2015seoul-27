@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/title2"
+                />
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:id="@+id/forFocus"
+            android:orientation="horizontal"
+            android:focusable="true" android:focusableInTouchMode="true"
+            android:layout_width="0px" android:layout_height="0px" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp"
+            >
+            <com.seoul.publicbooksearcher.presentation.view.component.InstantAutoCompleteView
+                android:id="@+id/auto_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/text_dark"
+                android:paddingLeft="10dp"
+                android:paddingRight="9dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="13dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+
+                android:background="@drawable/searchbar_shadoweffect"
+                android:drawableLeft="@mipmap/searchbar_icon"
+                android:drawablePadding="5dp"
+
+                android:hint="@string/hint"
+
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:imeOptions="actionSearch"
+                android:nextFocusLeft="@id/auto_edit"
+                android:nextFocusUp="@id/auto_edit"
+                />
+
+            <Button
+                android:id="@+id/calc_clear_txt_Prise"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:visibility="gone"
+                android:background="@mipmap/ic_clear_black_24dp" />
+        </FrameLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

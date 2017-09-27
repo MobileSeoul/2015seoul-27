@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimary">#558bcf</color>
+    <color name="colorPrimaryDark">#22589C</color>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_dark">#333333</color>
+    <color name="text_medium">#555555</color>
+    <color name="text_light">#888888</color>
+
+    <color name="flatGreen">#2ecc71</color>
+    <color name="flatRed">#e74c3c</color>
+    <color name="flatYellow">#f1c40f</color>
+    <color name="flatGrey">#95a5a6</color>
+
+    <color name="서울도서관">#BF55EC</color>
+
+    <color name="강남도서관">#E08283</color>
+    <color name="강동도서관">#D2527F</color>
+    <color name="강서도서관">#AEA8D3</color>
+    <color name="고덕평생학습관">#4183D7</color>
+
+    <color name="고척도서관">#2C3E50</color>
+    <color name="구로도서관">#336E7B</color>
+    <color name="개포도서관">#4ECDC4</color>
+    <color name="남산도서관">#3FC380</color>
+
+    <color name="노원평생학습관">#03A678</color>
+    <color name="동대문도서관">#1E824C</color>
+    <color name="도봉도서관">#F5D76E</color>
+    <color name="동작도서관">#F2784B</color>
+
+    <color name="마포평생학습관">#F9690E</color>
+    <color name="마포평생아현분관">#6C7A89</color>
+    <color name="서대문도서관">#BFBFBF</color>
+    <color name="송파도서관">#22313F</color>
+
+    <color name="양천도서관">#674172</color>
+    <color name="서울시립어린이도서관">#F62459</color>
+    <color name="영등포평생학습관">#C0392B</color>
+    <color name="용산도서관">#D24D57</color>
+
+    <color name="정독도서관">#A2DED0</color>
+    <color name="종로도서관">#90C695</color>
+
+</resources>
